@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/header'
 
-const IndexPage = () => {
+export default() => {
     return(
 <div>
 <div class="outer-wrapper">
@@ -22,5 +22,3 @@ forward to work with in the future.
     </div>
     )
 }
-
-export default IndexPage
