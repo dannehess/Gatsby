@@ -1,4 +1,4 @@
-import React, { hildren } from 'react'
+import React, { children } from 'react'
 import Header from './header'
 import { checkPropTypes } from '../../../../Library/Caches/typescript/3.5/node_modules/@types/prop-types';
 
