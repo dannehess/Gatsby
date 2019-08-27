@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const Header = () => {
-return (
+export default () => {
+    return(
 <header>
     <span class="name-logo"><img src="img/dhlogo.png" alt="" class="logo" /></span>
         <nav>
@@ -17,5 +17,3 @@ return (
 </header>
 )
 }
-
-export default Header
