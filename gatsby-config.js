@@ -1,10 +1,15 @@
 module.exports = {
+  siteMetadata: {
+    title: `Pandas Eating Lots`,
+  },
   plugins: [
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        pathToConfigModule: `src/utils/typography`,
+        name: `src`,
+        path: `${__dirname}/src/`,
       },
     },
+    
   ],
 }
