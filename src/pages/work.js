@@ -29,6 +29,7 @@ export default ({data}) => (
               to={node.fields.slug}
               css={css`
                 text-decoration: none;
+                font-family: 'Montserrat';
                 color: inherit;
               `}
             >
@@ -43,9 +44,10 @@ export default ({data}) => (
                 <span
                   css={css`
                     color: #bbb;
+                    font-family: 'Montserrat';
                   `}
                 >
-                  {node.frontmatter.date}
+                  
                 </span>
               </h3>
             </Link>
