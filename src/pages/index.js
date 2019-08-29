@@ -1,10 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
 import styles from "../pages/main-modules.css"
-import Chart from '../components/Chart';
 
-
-export default ({data}) => (
+export default () => (
 
   <Layout>
     <div>
@@ -19,7 +17,6 @@ The purpose of this website is to show who I am, projects I have done by myself 
         </section>
         <section className={styles.section}>
 
-<Chart />
 </section>
 </div>
 </Layout>

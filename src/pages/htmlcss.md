@@ -3,7 +3,7 @@ title: "HTML & CSS"
 ---
 
 
-
+<img src="../img/htmlcss.png">
 <br>
 This is another group-project I did with a couple of class mates.<br><br>
 <a href="https://awkes.github.io/HTML-och-CSS-historik/" target="_blank">Link to project</a>
