@@ -4,6 +4,7 @@ import styles from "../pages/main-modules.css"
 import { css } from "@emotion/core"
 import { Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
+import '../pages/fonts.css';
 
 export default ({data}) => (
 
