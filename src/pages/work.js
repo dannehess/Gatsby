@@ -47,7 +47,6 @@ export default ({data}) => (
                   {node.frontmatter.date}
                 </span>
               </h3>
-              <p>{node.excerpt}</p>
             </Link>
           </div>
 ))}
