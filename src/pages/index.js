@@ -14,6 +14,9 @@ export default () => (
         <p>
 The purpose of this website is to show who I am, projects I have done by myself or being a part of, at Nackademin.
 </p>
+<p>
+  testar om det funkar.
+</p>
         </section>
         <section className={styles.section}>
 
