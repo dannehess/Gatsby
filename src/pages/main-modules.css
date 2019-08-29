@@ -1,0 +1,24 @@
+body{
+    background-color: #efefef;
+}
+
+main{
+    max-width: 1000px;
+    height: 100%;
+    margin: 2rem auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section{
+    max-width: 1000px;
+    background-color: white;
+    padding: 40px;
+    margin: 20px auto;
+}
+
+.category{
+    margin: 0;
+    background-color: green;
+    font-size: 10rem;
+}
