@@ -47,6 +47,7 @@ export default ({data}) => (
                     font-family: 'Montserrat';
                   `}
                 >
+
                 </span>
               </h3>
             </Link>
