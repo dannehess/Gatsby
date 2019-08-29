@@ -1,31 +1,14 @@
 import React from "react"
-import Layout from "../components/layout"
-import styles from "../pages/main-modules.css"
 import { css } from "@emotion/core"
 import { Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
+import Layout from "../components/layout"
 
-export default ({data}) => (
-
-  <Layout>
-    <div>
-    <section className={styles.section}>
-        <h1 style={{ marginTop: `0`, fontSize: `3rem`,  }}>Hi!</h1>
-        <p>
-            My name is Daniel Hessling and I am currently studying Front-End Development at Nackademin in Stockholm, Sweden.
-        </p>
-        </section>
-        <section className={styles.section}>
-        <p>
-The purpose of this website is to show who I am, projects I have done by myself or being a part of, at Nackademin.
-</p>
-</section>
-
-<section className={styles.section}>
-
-
-
-<h1
+export default ({ data }) => {
+  return (
+    <Layout>
+      <div>
+        <h1
           css={css`
             display: inline-block;
             border-bottom: 1px solid;
@@ -60,14 +43,12 @@ The purpose of this website is to show who I am, projects I have done by myself 
               <p>{node.excerpt}</p>
             </Link>
           </div>
-))}
+        ))}
+      </div>
+    </Layout>
+  )
+}
 
-  </section>
-  </div>
-  </Layout>
-
-) 
-        
 export const query = graphql`
   query {
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
