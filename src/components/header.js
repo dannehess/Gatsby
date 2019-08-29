@@ -18,7 +18,7 @@ export default ({ children }) => (
         <img src={logo} style={{ width: `40px`, marginBottom: `5px`, marginLeft: `20px`}} alt=" "/>
       <ul style={{ listStyle: `none`, float: `right`, marginTop: `9px`}}>
         <ListLink to="/">About</ListLink>
-        <ListLink to="/about/">Work</ListLink>
+        <ListLink to="/work/">Work</ListLink>
         <ListLink to="/contact/">Contact</ListLink>
       </ul>
     <div style={{ display: `inline-block`, position: `absolute`, right: `30px`, marginTop: `6px`, float: `right` }}>
