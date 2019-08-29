@@ -1,9 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import styles from "../pages/main-modules.css"
-import constyles from "../pages/contact-modules.css"
-import linkedin from '../img/linkedin.png';
-import twitter from '../img/twitter.png';
 
 export default () => (
   <Layout>
@@ -15,8 +12,8 @@ export default () => (
     </p>
     <p>You can also get in touch with me at:</p>
     
-    <a href="https://www.linkedin.com/in/danielhessling" target="_blank">LinkedIn</a><br></br><br></br>
-    <a href="https://twitter.com/dannehess" target="_blank">Twitter</a>
+    <a href="https://www.linkedin.com/in/danielhessling" alt=" " target="_blank">LinkedIn</a><br></br><br></br>
+    <a href="https://twitter.com/dannehess" alt=" " target="_blank">Twitter</a>
     
     </section>
     </Layout>

@@ -31,7 +31,6 @@ export default ({ data }) => {
                   color: #bbb;
                 `}
               >
-                — {node.frontmatter.date}
               </span>
             </h3>
             <p>{node.excerpt}</p>
@@ -51,7 +50,6 @@ export const query = graphql`
           id
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
           }
           excerpt
         }
