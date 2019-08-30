@@ -41,7 +41,7 @@ export default ({data}) => (
                 css={css`
                   margin-bottom: ${rhythm(1 / 4)};
                   font-family: 'Montserrat';
-                  font-size: 2rem;
+                  font-size: 1.4rem;
                   background-color: black;
                   padding: 20px;
                   width: auto;

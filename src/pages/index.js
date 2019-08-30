@@ -7,7 +7,7 @@ export default () => (
   <Layout>
     <div>
     <section className={styles.section}>
-        <h1 style={{ marginTop: `0`, fontSize: `3rem`, fontFamily: `Montserrat` }}>Hi!</h1>
+        <h1 style={{ marginTop: `0`, fontSize: `4rem`, fontFamily: `Montserrat` }}>Hi!</h1>
         <p>
             My name is Daniel Hessling and I am currently studying Front-End Development at Nackademin in Stockholm, Sweden.
         </p>
