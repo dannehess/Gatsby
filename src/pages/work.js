@@ -23,6 +23,9 @@ export default ({data}) => (
         >
           Work
         </h1>
+        <p>
+              Here you can find projects I have done myself or been a part of at my school (Nackademin).
+              </p>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
@@ -44,7 +47,6 @@ export default ({data}) => (
                   width: auto;
                   color: white;
                   display: inline-block;
-                  margin-left: 40px;
                 `}
               >
                 {node.frontmatter.title}{" "}

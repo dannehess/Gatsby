@@ -7,6 +7,10 @@ h1{
 font-family: 'Montserrat';
 }
 
+p{
+    font-size: 1.3rem;
+}
+
 main{
     max-width: 1000px;
     height: 100%;
