@@ -15,7 +15,7 @@ export default ({ children }) => (
   <div>
     <header className={styles.header}>
     <nav className={styles.nav}>
-       <ListLink to="/"> <img src={logo} style={{ width: `40px`, marginBottom: `0px`, marginLeft: `20px`}} alt=" "/></ListLink>
+       <Link to="/"> <img src={logo} style={{ width: `40px`, marginBottom: `8px`, marginLeft: `20px`, marginTop: `4px`}} alt=" "/></Link>
       <ul style={{ listStyle: `none`, float: `right`, marginTop: `12px`}}>
         <ListLink to="/">About</ListLink>
         <ListLink to="/work/">Work</ListLink>
