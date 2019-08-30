@@ -31,7 +31,8 @@
     "typescript": "^3.6.2",
     "typography": "^0.16.19",
     "typography-theme-fairy-gates": "^0.16.19",
-    "typography-theme-kirkham": "^0.16.19"
+    "typography-theme-kirkham": "^0.16.19",
+    "yard": "^1.0.3"
   },
   "devDependencies": {
     "css-loader": "^3.2.0",

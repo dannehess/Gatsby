@@ -38,6 +38,13 @@ export default ({data}) => (
                 css={css`
                   margin-bottom: ${rhythm(1 / 4)};
                   font-family: 'Montserrat';
+                  font-size: 2rem;
+                  background-color: black;
+                  padding: 20px;
+                  width: auto;
+                  color: white;
+                  display: inline-block;
+                  margin-left: 40px;
                 `}
               >
                 {node.frontmatter.title}{" "}

@@ -22,8 +22,8 @@ export default ({ children }) => (
         <ListLink to="/contact/">Contact</ListLink>
       </ul>
     <div style={{ display: `inline-block`, position: `absolute`, right: `30px`, marginTop: `8px`, float: `right` }}>
-    <a href="https://www.linkedin.com/in/danielhessling"><img src={linkedin} style={{ width: `30px`, marginBottom: `6px`, marginRight: `10px`}} alt=" "/></a>
-    <a href="https://twitter.com/dannehess"><img src={twitter} style={{ width: `30px`, marginBottom: `6px`, marginLeft: `10px`}} alt=" "/></a>
+    <a href="https://www.linkedin.com/in/danielhessling" target="_blank"><img src={linkedin} style={{ width: `30px`, marginBottom: `6px`, marginRight: `10px`}} alt=" "/></a>
+    <a href="https://twitter.com/dannehess" target="_blank"><img src={twitter} style={{ width: `30px`, marginBottom: `6px`, marginLeft: `10px`}} alt=" "/></a>
     </div>
     </nav>
 </header>
