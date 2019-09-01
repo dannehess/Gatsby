@@ -1,6 +1,9 @@
 import React from "react"
 import Layout from "../components/layout"
 import styles from "../pages/main-modules.css"
+import Chartone from "../components/chartone"
+import Charttwo from "../components/charttwo"
+import Chartthree from "../components/chartthree"
 
 export default () => (
 
@@ -17,8 +20,15 @@ The purpose of this website is to show who I am, projects I have done by myself 
 </p>
         </section>
         <section className={styles.section}>
-        
+        <Chartone />
+        </section>
 
+        <section className={styles.section}>
+        <Charttwo />
+        </section>
+
+        <section className={styles.section}>
+        <Chartthree />
 </section>
 </div>
 </Layout>
