@@ -6,25 +6,25 @@ class Chartthree extends Component{
     super(props);
     this.state = {
       chartData:{
-        labels: ['Boston', 'Worcester', 'Springfield', 'Lowell', 'Cambridge', 'New Bedford'],
+        labels: ['JavaScript', 'Python', 'Java', 'C++', 'PHP', 'Ruby'],
         datasets:[
           {
             label: 'Population',
             data:[
+              2123412,
               61743,
               234566,
-              2123412,
               54343,
               54656,
               324234
             ],
             backgroundColor:[
-              'black',
-              'red',
-              'blue',
-              'green',
-              'purple',
-              'yellow'
+              '#58D68D',
+              '#5D6D7E',
+              '#F4D03F',
+              '#E74C3C',
+              '#E25DC0',
+              '#5DADE2'
             ]
           }
         ]
@@ -39,10 +39,11 @@ class Chartthree extends Component{
         data={this.state.chartData}
         width={100}
         height={50}
+        
         options={{
           title:{
-            display: true,
-            text: 'Largest cities in Massachussetts'
+            display: false,
+            text: 'Most popular programminglanguages'
           }
         }}
         />

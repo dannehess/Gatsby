@@ -1,9 +1,10 @@
 body{
     background-color: #efefef;
     font-family: 'Montserrat';
+    color: #1a1a1d;
 }
 
-h1{
+h1, h2, h3, h4{
 font-family: 'Montserrat';
 }
 

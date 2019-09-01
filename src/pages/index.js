@@ -20,16 +20,19 @@ The purpose of this website is to show who I am, projects I have done by myself 
 </p>
         </section>
         <section className={styles.section}>
+          <h2 style={{color: '#1a1a1d', fontSize: '2rem'}}>Best guitarists of all time</h2>
         <Chartone />
         </section>
 
         <section className={styles.section}>
+          <h2 style={{color: '#1a1a1d', fontSize: '2rem'}}>Best bassists of all time</h2>
         <Charttwo />
         </section>
-
+        
         <section className={styles.section}>
+          <h2 style={{color: '#1a1a1d', fontSize: '2rem'}}>Most popular programminglanguages</h2>
         <Chartthree />
-</section>
+        </section>
 </div>
 </Layout>
 )

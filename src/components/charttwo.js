@@ -6,25 +6,25 @@ class Charttwo extends Component{
     super(props);
     this.state = {
       chartData:{
-        labels: ['Boston', 'Worcester', 'Springfield', 'Lowell', 'Cambridge', 'New Bedford'],
+        labels: ['Lemmy Kilmister', 'Steve Harris', 'Cliff Burton', 'Nikki Sixx', 'Corey Parks', 'Ruyter Suys'],
         datasets:[
           {
             label: 'Population',
             data:[
-              61743,
-              234566,
-              2123412,
+              101743,
+              2344566,
+              212341,
               54343,
               54656,
               324234
             ],
             backgroundColor:[
-              'black',
-              'red',
-              'blue',
-              'green',
-              'purple',
-              'yellow'
+              '#5D6D7E',
+              '#48C9B0',
+              '#E74C3C',
+              '#58D68D',
+              '#F4D03F',
+              '#5DADE2'
             ]
           }
         ]
@@ -41,8 +41,8 @@ class Charttwo extends Component{
         height={50}
         options={{
           title:{
-            display: true,
-            text: 'Largest cities in Massachussetts'
+            display: false,
+            text: 'Best bassist of all time'
           }
         }}
         />
