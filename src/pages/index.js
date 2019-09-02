@@ -16,8 +16,8 @@ export default () => (
             My name is Daniel Hessling and I am currently studying Front-End Development at Nackademin in Stockholm, Sweden.
         </p>
         <p>
-The purpose of this website is to show who I am, projects I have done by myself or being a part of, at Nackademin.
-</p>
+            The purpose of this website is to show who I am, projects I have done by myself or being a part of, at Nackademin.
+        </p>
         </section>
         <section className={styles.section}>
           <h2 style={{color: '#1a1a1d', fontSize: '2rem'}}>Best guitarists of all time</h2>
